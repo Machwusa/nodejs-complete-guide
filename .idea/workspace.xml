@@ -19,17 +19,20 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="005d080b-f827-4509-9380-7185e5b814c5" name="Default Changelist" comment="changes">
-      <change afterPath="$PROJECT_DIR$/public/css/main.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/product.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/util/path.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/add-product.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/page-not-found.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/shop.html" afterDir="false" />
+    <list default="true" id="005d080b-f827-4509-9380-7185e5b814c5" name="Default Changelist" comment="public">
+      <change afterPath="$PROJECT_DIR$/public/css/form.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/shop.pug" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/product.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/product.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/admin.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/admin.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/shop.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/shop.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/add-product.html" beforeDir="false" afterPath="$PROJECT_DIR$/views/add-product.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/page-not-found.html" beforeDir="false" afterPath="$PROJECT_DIR$/views/page-not-found.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/shop.html" beforeDir="false" afterPath="$PROJECT_DIR$/views/shop.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,6 +45,7 @@
         <option value="HTML File" />
         <option value="JavaScript File" />
         <option value="CSS File" />
+        <option value="Pug File" />
       </list>
     </option>
   </component>
@@ -116,7 +120,10 @@
       <workItem from="1600781363970" duration="300000" />
       <workItem from="1600781674372" duration="2776000" />
       <workItem from="1600839279496" duration="831000" />
-      <workItem from="1601277962703" duration="10310000" />
+      <workItem from="1601277962703" duration="10941000" />
+      <workItem from="1601366869461" duration="605000" />
+      <workItem from="1601537074309" duration="1696000" />
+      <workItem from="1601620057227" duration="3283000" />
     </task>
     <task id="LOCAL-00001" summary="express.js">
       <created>1600760704262</created>
@@ -139,7 +146,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600786276014</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="public">
+      <created>1601294288249</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1601294288249</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -162,7 +176,8 @@
     <MESSAGE value="express.js" />
     <MESSAGE value="gitignore" />
     <MESSAGE value="changes" />
-    <option name="LAST_COMMIT_MESSAGE" value="changes" />
+    <MESSAGE value="public" />
+    <option name="LAST_COMMIT_MESSAGE" value="public" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2334" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1600756675586">
@@ -181,6 +196,10 @@
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2012" y="92" width="1736" height="856" key="DiffContextDialog/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1600757191216" />
+    <state x="2549" y="298" key="EditFileWatcherDialog" timestamp="1601622741429">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2549" y="298" key="EditFileWatcherDialog/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1601622741429" />
     <state x="2723" y="418" key="Github.ShareDialog" timestamp="1600672775918">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
@@ -253,14 +272,14 @@
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="397" key="GridCell.Tab.3.right/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1600760915701" />
-    <state x="2381" y="165" key="SettingsEditor" timestamp="1601287200537">
+    <state x="2381" y="165" key="SettingsEditor" timestamp="1601622954059">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="2381" y="165" key="SettingsEditor/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1601287200537" />
-    <state x="2472" y="253" key="Vcs.Push.Dialog.v2" timestamp="1600793036787">
+    <state x="2381" y="165" key="SettingsEditor/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1601622954059" />
+    <state x="2472" y="253" key="Vcs.Push.Dialog.v2" timestamp="1601294290009">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="2472" y="253" key="Vcs.Push.Dialog.v2/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1600793036787" />
+    <state x="2472" y="253" key="Vcs.Push.Dialog.v2/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1601294290009" />
     <state x="2697" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1600760657768">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
